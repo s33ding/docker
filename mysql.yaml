@@ -1,0 +1,24 @@
+version: '3.8'
+services:
+  db:
+    container_name: mysql-name
+    image: mysql:5.7
+    cap_add:
+      - SYS_NICE
+    restart: always
+    environment:
+      - MYSQL_DATABASE=quotes
+      - MYSQL_ROOT_PASSWORD=mauFJcuf5dhRMQrjj
+    ports:
+      - '3306:3306'
+    volumes:
+      - db:/var/lib/mysql
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
+volumes:
+  db:
+    driver: local
+#It uses the docker-compose file version 3.8, one of the latest ones.
+#Consequently, we definedb as a service, each service will be equivalent to a new docker run command
+#The cap_add set to SYS_NICE suppresses some not useful error messages.
+#Next up we ask docker-compose to always restart this container if it fails.
+#FONT: https://geshan.com.np/blog/2022/02/mysql-docker-compose/
