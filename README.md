@@ -6,9 +6,9 @@ In this repository I will store some Dockerfile and docker-compose to use as tem
 
 ##### Usefull commands for docker-cli:
 
-pull image 
+- pull image 
 
-> sudo docker pull mysql
+  - sudo docker pull mysql
 
 run docker 
 
