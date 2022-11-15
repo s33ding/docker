@@ -4,98 +4,97 @@ In this repository I will store some Dockerfile and docker-compose to use as tem
 
 ![Docker Logo](https://logos-download.com/wp-content/uploads/2016/09/Docker_logo-700x588.png)
 
-##### Usefull commands for docker-cli:
+### Usefull commands for docker-cli:
 
-pull image 
+##### pull image 
 
   - sudo docker pull mysql
 
-run docker 
+##### run docker 
 
   - docker run --name ___ -e MYSQL_ROOT_PASSWORD=___ -p 3306:3306 -d mysql
 
-exec mysql with the cli
+##### exec mysql with the cli
 
   - sudo docker exec -it ___ mysql -p
 
-restarting container already created
+##### restarting container already created
 
   - docker start ___
 
-start new container interactively
+##### start new container interactively
 
   - docker container run -it
 
-run additional command in existing container
+##### run additional command in existing container
 
   - docker  container exec -it
 
-restarting container already created
+##### restarting container already created
 
   - docker start ___
-
 
 ---------
 ### Getting information from Docker containers
 
-see the version of the docker-cli and server
+##### see the version of the docker-cli and server
 
   - docker version
 
-docker general info
+##### docker general info
 
   - docker info
 
-see the main commands
+##### see the main commands
 
   - docker
 
-see containers running, by default ls only show running containers, use '-a' to list all
+##### see containers running, by default ls only show running containers, use '-a' to list all
 
   - docker ps -a
 
 
   - docker container ls
 
-see logs
+##### see logs
 
   - docker logs {container_name}
 
- see process running
+ ##### see process running
 
   - docker top {container_name}
 
-process list in one container 
+##### process list in one container 
 
   - docker container
 
-details of one container config 
+##### details of one container config 
 
   - docker container inspect
 
-performance stats for all containers, show metadata about the container (startup config, volumes, networking, etc)
+##### performance stats for all containers, show metadata about the container (startup config, volumes, networking, etc)
 
   - docker container stats
 -------------
 ##### Network
 
-show networks
+##### show networks
 
   - docker network ls
 
-inspect network
+##### inspect network
 
   - docker network inspect
 
-create a network
+##### create a network
 
   - docker network create --driver
 
-attach a network to container
+##### attach a network to container
 
   - docker network connect
 
-detach a network from container
+##### detach a network from container
 
   - docker network disconnect
 --------------
