@@ -38,28 +38,29 @@ restarting container already created
 ---------
 ### Getting information from Docker containers
 
-    see the version of the docker-cli and server
+see the version of the docker-cli and server
 
-docker version
+  - docker version
 
-    docker general info
+docker general info
 
-docker info
+  - docker info
 
-    see the main commands
+see the main commands
 
-docker
+  - docker
 
-    see containers running, by default ls only show running containers, use '-a' to list all
+see containers running, by default ls only show running containers, use '-a' to list all
 
-docker ps -a
+  - docker ps -a
 
-docker container ls
 
-    see logs
+  - docker container ls
 
-docker logs {container_name}
+see logs
 
-    see process running
+  - docker logs {container_name}
+
+ see process running
 
 docker top {container_name}
