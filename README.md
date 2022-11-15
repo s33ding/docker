@@ -79,4 +79,4 @@ performance stats for all containers, show metadata about the container (startup
 -------------
 ##### REFERENCE:
 
-[Apostila sobre Docker do Fernando Anselmo](https://github.com/fernandoans/publicacoes/blob/master/Apostilas/Docker/AplicativosDocker.pdf)
+[Docker CLI - Cheatsheet](https://raw.githubusercontent.com/sangam14/dockercheatsheets/master/dockercheatsheet8.png)
