@@ -4,7 +4,7 @@ In this repository I will store some Dockerfile and docker-compose to use as tem
 
 ![Docker Logo](https://logos-download.com/wp-content/uploads/2016/09/Docker_logo-700x588.png)
 
-Usefull commands:
+Usefull commands for docker-cli:
 
 > pull image 
 
