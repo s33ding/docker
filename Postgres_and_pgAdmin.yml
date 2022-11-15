@@ -1,0 +1,29 @@
+version: '3'
+
+services:
+  dt-postgres:
+    image: postgres:14.5-bullseye
+    environment:
+      POSTGRES_PASSWORD: "passwd1234"
+    ports:
+      - "15432:5432"
+    volumes:
+      - ./volume/pg:/var/lib/postgresql/data
+    networks:
+      - postgres-compose-network
+
+  dt-pgadmin:
+    image: dpage/pgadmin4:6.13
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "d9engbr@proton.me"
+      PGADMIN_DEFAULT_PASSWORD: "passwd1234"
+    ports:
+      - "16543:80"
+    depends_on:
+      - dt-postgres
+    networks:
+      - postgres-compose-network
+
+networks:
+  postgres-compose-network:
+    driver: bridge
