@@ -4,7 +4,7 @@ In this repository I will store some Dockerfile and docker-compose to use as tem
 
 ![Docker Logo](https://logos-download.com/wp-content/uploads/2016/09/Docker_logo-700x588.png)
 
-Usefull commands for docker-cli:
+##### Usefull commands for docker-cli:
 
 > pull image 
 
@@ -62,7 +62,3 @@ sudo docker exec -it ___ mysql -p
 
 docker start ___
 
-
-> handling ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)eroo
-
-docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' {container name}
