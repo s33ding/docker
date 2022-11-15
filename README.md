@@ -64,3 +64,15 @@ see logs
  see process running
 
   - docker top {container_name}
+
+process list in one container 
+
+  - docker container
+
+details of one container config 
+
+  - docker container inspect
+
+performance stats for all containers, show metadata about the container (startup config, volumes, networking, etc)
+
+  - docker container stats
