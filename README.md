@@ -76,3 +76,7 @@ details of one container config
 performance stats for all containers, show metadata about the container (startup config, volumes, networking, etc)
 
   - docker container stats
+-------------
+##### REFERENCE:
+
+[Apostila sobre Docker do Fernando Anselmo](https://github.com/fernandoans/publicacoes/blob/master/Apostilas/Docker/AplicativosDocker.pdf)
