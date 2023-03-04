@@ -1,27 +1,21 @@
-# syntax=docker/dockerfile:1.4
-FROM --platform=$BUILDPLATFORM python:3.10-alpine AS builder
+# Use an official Python runtime as a parent image
+FROM python:3.9-slim-buster
 
-WORKDIR /code
+# Set the working directory to /app
+WORKDIR /app
 
-COPY requirements.txt /code
-RUN --mount=type=cache,target=/root/.cache/pip \
-    pip3 install -r requirements.txt
+# Copy the current directory contents into the container at /app
+COPY . /app
 
-COPY . /code
+# Install any needed packages specified in requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
-ENTRYPOINT ["python3"]
-CMD ["app.py"]
+# Make port 8000 available to the world outside this container
+EXPOSE 8000
 
-FROM builder as dev-envs
+# Define environment variable
+ENV NAME World
 
-RUN <<EOF
-apk update
-apk add git bash
-EOF
+# Run app.py when the container launches
+CMD ["python", "app.py"]
 
-RUN <<EOF
-addgroup -S docker
-adduser -S --shell /bin/bash --ingroup docker vscode
-EOF
-# install Docker tools (cli, buildx, compose)
-COPY --from=gloursdocker/docker / /
