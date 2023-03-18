@@ -1,29 +1,33 @@
 version: '3'
 
 services:
-  dt-postgres:
+  postgres:
     image: postgres:14.5-bullseye
     environment:
-      POSTGRES_PASSWORD: "passwd1234"
+      POSTGRES_PASSWORD: ${DATAI_POSTGRES_PASSWORD}
     ports:
-      - "15432:5432"
+      - "5432:5432"
     volumes:
       - ./volume/pg:/var/lib/postgresql/data
     networks:
       - postgres-compose-network
+    restart: always
 
-  dt-pgadmin:
+  pgadmin:
     image: dpage/pgadmin4:6.13
     environment:
-      PGADMIN_DEFAULT_EMAIL: "d9engbr@proton.me"
-      PGADMIN_DEFAULT_PASSWORD: "passwd1234"
+      PGADMIN_DEFAULT_EMAIL: "dataiconsultoria@gmail.com"
+      PGADMIN_DEFAULT_PASSWORD: ${DATAI_POSTGRES_PASSWORD}
     ports:
-      - "16543:80"
+      - "5050:80"
     depends_on:
-      - dt-postgres
+      - postgres
     networks:
       - postgres-compose-network
+    restart: always
 
 networks:
   postgres-compose-network:
     driver: bridge
+
+
