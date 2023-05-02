@@ -1,2 +1,2 @@
-docker rm -f pyScript
-docker rmi img-pyScript
+docker rm -f pyscript
+docker rmi img-pyscript
