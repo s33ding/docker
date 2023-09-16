@@ -1,0 +1,3 @@
+hadoop fs -put meuarq
+hadoop dfs -ls
+hadoop fs -ls
