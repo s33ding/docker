@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shell Command Execution</title>
+</head>
+<body>
+    <h1>Execute Shell Command</h1>
+    <form method="POST">
+        <label for="shell_command">Enter a shell command:</label>
+        <input type="text" id="shell_command" name="shell_command" required>
+        <button type="submit">Execute</button>
+    </form>
+
+    <h2>Output:</h2>
+    <pre>
+        {{ output | safe }}
+    </pre>
+    <br>
+    <ul>
+        <li>
+		<a href="/">home</a>
+        </li>
+    </ul>
+</body>
+</html>
+
