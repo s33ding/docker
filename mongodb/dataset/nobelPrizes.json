@@ -1,0 +1,1376 @@
+{
+    "nobelPrizes": [
+        {
+            "awardYear": "1901",
+            "category": {
+                "en": "Chemistry",
+                "no": "Kjemi",
+                "se": "Kemi"
+            },
+            "categoryFullName": {
+                "en": "The Nobel Prize in Chemistry",
+                "no": "Nobelprisen i kjemi",
+                "se": "Nobelpriset i kemi"
+            },
+            "dateAwarded": "1901-11-12",
+            "prizeAmount": 150782,
+            "prizeAmountAdjusted": 9704878,
+            "links": [
+                {
+                    "rel": "nobelPrize",
+                    "href": "https://api.nobelprize.org/2/nobelPrize/che/1901",
+                    "action": "GET",
+                    "types": "application/json"
+                }
+            ],
+            "laureates": [
+                {
+                    "id": "160",
+                    "knownName": {
+                        "en": "Jacobus H. van 't Hoff"
+                    },
+                    "fullName": {
+                        "en": "Jacobus Henricus van 't Hoff"
+                    },
+                    "portion": "1",
+                    "sortOrder": "1",
+                    "motivation": {
+                        "en": "in recognition of the extraordinary services he has rendered by the discovery of the laws of chemical dynamics and osmotic pressure in solutions",
+                        "se": "s\u00e5som ett erk\u00e4nnande av den utomordentliga f\u00f6rtj\u00e4nst han inlagt genom uppt\u00e4ckten av lagarna f\u00f6r den kemiska dynamiken och f\u00f6r det osmotiska trycket i l\u00f6sningar"
+                    },
+                    "links": [
+                        {
+                            "rel": "laureate",
+                            "href": "https://api.nobelprize.org/2/laureate/160",
+                            "action": "GET",
+                            "types": "application/json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "awardYear": "1901",
+            "category": {
+                "en": "Literature",
+                "no": "Litteratur",
+                "se": "Litteratur"
+            },
+            "categoryFullName": {
+                "en": "The Nobel Prize in Literature",
+                "no": "Nobelprisen i litteratur",
+                "se": "Nobelpriset i litteratur"
+            },
+            "dateAwarded": "1901-11-14",
+            "prizeAmount": 150782,
+            "prizeAmountAdjusted": 9704878,
+            "links": [
+                {
+                    "rel": "nobelPrize",
+                    "href": "https://api.nobelprize.org/2/nobelPrize/lit/1901",
+                    "action": "GET",
+                    "types": "application/json"
+                }
+            ],
+            "laureates": [
+                {
+                    "id": "569",
+                    "knownName": {
+                        "en": "Sully Prudhomme"
+                    },
+                    "fullName": {
+                        "en": "Sully Prudhomme"
+                    },
+                    "portion": "1",
+                    "sortOrder": "1",
+                    "motivation": {
+                        "en": "in special recognition of his poetic composition, which gives evidence of lofty idealism, artistic perfection and a rare combination of the qualities of both heart and intellect",
+                        "se": "s\u00e5som ett erk\u00e4nnande av hans utm\u00e4rkta, j\u00e4mv\u00e4l under senare \u00e5r \u00e5dagalagda f\u00f6rtj\u00e4nster som f\u00f6rfattare och s\u00e4rskilt av hans om h\u00f6g idealitet, konstn\u00e4rlig full\u00e4ndning samt s\u00e4llspord f\u00f6rening av hj\u00e4rtats och snillets egenskaper vittnande diktning"
+                    },
+                    "links": [
+                        {
+                            "rel": "laureate",
+                            "href": "https://api.nobelprize.org/2/laureate/569",
+                            "action": "GET",
+                            "types": "application/json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "awardYear": "1901",
+            "category": {
+                "en": "Peace",
+                "no": "Fred",
+                "se": "Fred"
+            },
+            "categoryFullName": {
+                "en": "The Nobel Peace Prize",
+                "no": "Nobels fredspris",
+                "se": "Nobels fredspris"
+            },
+            "dateAwarded": "1901-12-10",
+            "prizeAmount": 150782,
+            "prizeAmountAdjusted": 9704878,
+            "links": [
+                {
+                    "rel": "nobelPrize",
+                    "href": "https://api.nobelprize.org/2/nobelPrize/pea/1901",
+                    "action": "GET",
+                    "types": "application/json"
+                }
+            ],
+            "laureates": [
+                {
+                    "id": "462",
+                    "knownName": {
+                        "en": "Henry Dunant"
+                    },
+                    "fullName": {
+                        "en": "Jean Henry Dunant"
+                    },
+                    "portion": "1/2",
+                    "sortOrder": "1",
+                    "motivation": {
+                        "en": "for his humanitarian efforts to help wounded soldiers and create international understanding",
+                        "no": "for sin humanit\u00e6re innsats for \u00e5 hjelpe s\u00e5rede soldater og skape internasjonal forst\u00e5else"
+                    },
+                    "links": [
+                        {
+                            "rel": "laureate",
+                            "href": "https://api.nobelprize.org/2/laureate/462",
+                            "action": "GET",
+                            "types": "application/json"
+                        }
+                    ]
+                },
+                {
+                    "id": "463",
+                    "knownName": {
+                        "en": "Fr\u00e9d\u00e9ric Passy"
+                    },
+                    "fullName": {
+                        "en": "Fr\u00e9d\u00e9ric Passy"
+                    },
+                    "portion": "1/2",
+                    "sortOrder": "2",
+                    "motivation": {
+                        "en": "for his lifelong work for international peace conferences, diplomacy and arbitration",
+                        "no": "for sin  livslange innsats for internasjonale fredskonferanser, diplomati og voldgift"
+                    },
+                    "links": [
+                        {
+                            "rel": "laureate",
+                            "href": "https://api.nobelprize.org/2/laureate/463",
+                            "action": "GET",
+                            "types": "application/json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "awardYear": "1901",
+            "category": {
+                "en": "Physics",
+                "no": "Fysikk",
+                "se": "Fysik"
+            },
+            "categoryFullName": {
+                "en": "The Nobel Prize in Physics",
+                "no": "Nobelprisen i fysikk",
+                "se": "Nobelpriset i fysik"
+            },
+            "dateAwarded": "1901-11-12",
+            "prizeAmount": 150782,
+            "prizeAmountAdjusted": 9704878,
+            "links": [
+                {
+                    "rel": "nobelPrize",
+                    "href": "https://api.nobelprize.org/2/nobelPrize/phy/1901",
+                    "action": "GET",
+                    "types": "application/json"
+                }
+            ],
+            "laureates": [
+                {
+                    "id": "1",
+                    "knownName": {
+                        "en": "Wilhelm Conrad R\u00f6ntgen"
+                    },
+                    "fullName": {
+                        "en": "Wilhelm Conrad R\u00f6ntgen"
+                    },
+                    "portion": "1",
+                    "sortOrder": "1",
+                    "motivation": {
+                        "en": "in recognition of the extraordinary services he has rendered by the discovery of the remarkable rays subsequently named after him",
+                        "se": "s\u00e5som ett erk\u00e4nnande av den utomordentliga f\u00f6rtj\u00e4nst han inlagt genom uppt\u00e4ckten av de egendomliga str\u00e5lar, som sedermera uppkallats efter honom"
+                    },
+                    "links": [
+                        {
+                            "rel": "laureate",
+                            "href": "https://api.nobelprize.org/2/laureate/1",
+                            "action": "GET",
+                            "types": "application/json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "awardYear": "1901",
+            "category": {
+                "en": "Physiology or Medicine",
+                "no": "Fysiologi eller medisin",
+                "se": "Fysiologi eller medicin"
+            },
+            "categoryFullName": {
+                "en": "The Nobel Prize in Physiology or Medicine",
+                "no": "Nobelprisen i fysiologi eller medisin",
+                "se": "Nobelpriset i fysiologi eller medicin"
+            },
+            "dateAwarded": "1901-10-30",
+            "prizeAmount": 150782,
+            "prizeAmountAdjusted": 9704878,
+            "links": [
+                {
+                    "rel": "nobelPrize",
+                    "href": "https://api.nobelprize.org/2/nobelPrize/med/1901",
+                    "action": "GET",
+                    "types": "application/json"
+                }
+            ],
+            "laureates": [
+                {
+                    "id": "293",
+                    "knownName": {
+                        "en": "Emil von Behring"
+                    },
+                    "fullName": {
+                        "en": "Emil Adolf von Behring"
+                    },
+                    "portion": "1",
+                    "sortOrder": "1",
+                    "motivation": {
+                        "en": "for his work on serum therapy, especially its application against diphtheria, by which he has opened a new road in the domain of medical science and thereby placed in the hands of the physician a victorious weapon against illness and deaths",
+                        "se": "f\u00f6r hans arbete r\u00f6rande serumterapien och s\u00e4rskilt dess anv\u00e4ndning mot difteri, varigenom han brutit en ny v\u00e4g inom den medicinska vetenskapens omr\u00e5de och givit l\u00e4karen ett segerrikt vapen i kampen mot sjukdom och d\u00f6d"
+                    },
+                    "links": [
+                        {
+                            "rel": "laureate",
+                            "href": "https://api.nobelprize.org/2/laureate/293",
+                            "action": "GET",
+                            "types": "application/json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "awardYear": "1902",
+            "category": {
+                "en": "Chemistry",
+                "no": "Kjemi",
+                "se": "Kemi"
+            },
+            "categoryFullName": {
+                "en": "The Nobel Prize in Chemistry",
+                "no": "Nobelprisen i kjemi",
+                "se": "Nobelpriset i kemi"
+            },
+            "dateAwarded": "1902-11-11",
+            "prizeAmount": 141847,
+            "prizeAmountAdjusted": 9129789,
+            "links": [
+                {
+                    "rel": "nobelPrize",
+                    "href": "https://api.nobelprize.org/2/nobelPrize/che/1902",
+                    "action": "GET",
+                    "types": "application/json"
+                }
+            ],
+            "laureates": [
+                {
+                    "id": "161",
+                    "knownName": {
+                        "en": "Emil Fischer"
+                    },
+                    "fullName": {
+                        "en": "Hermann Emil Fischer"
+                    },
+                    "portion": "1",
+                    "sortOrder": "1",
+                    "motivation": {
+                        "en": "in recognition of the extraordinary services he has rendered by his work on sugar and purine syntheses",
+                        "se": "s\u00e5som ett erk\u00e4nnande av den utomordentliga f\u00f6rtj\u00e4nst han inlagt genom sina syntetiska arbeten inom socker - och purin-grupperna"
+                    },
+                    "links": [
+                        {
+                            "rel": "laureate",
+                            "href": "https://api.nobelprize.org/2/laureate/161",
+                            "action": "GET",
+                            "types": "application/json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "awardYear": "1902",
+            "category": {
+                "en": "Literature",
+                "no": "Litteratur",
+                "se": "Litteratur"
+            },
+            "categoryFullName": {
+                "en": "The Nobel Prize in Literature",
+                "no": "Nobelprisen i litteratur",
+                "se": "Nobelpriset i litteratur"
+            },
+            "dateAwarded": "1902-11-13",
+            "prizeAmount": 141847,
+            "prizeAmountAdjusted": 9129789,
+            "links": [
+                {
+                    "rel": "nobelPrize",
+                    "href": "https://api.nobelprize.org/2/nobelPrize/lit/1902",
+                    "action": "GET",
+                    "types": "application/json"
+                }
+            ],
+            "laureates": [
+                {
+                    "id": "571",
+                    "knownName": {
+                        "en": "Theodor Mommsen"
+                    },
+                    "fullName": {
+                        "en": "Christian Matthias Theodor Mommsen"
+                    },
+                    "portion": "1",
+                    "sortOrder": "1",
+                    "motivation": {
+                        "en": "the greatest living master of the art of historical writing, with special reference to his monumental work, <I>A history of Rome</I>",
+                        "se": "nutidens st\u00f6rste levande m\u00e4stare i den historiska framst\u00e4llningens konst, med s\u00e4rskilt f\u00e4st avseende \u00e5 hans monumentala verk R\u00f6mische Geschichte"
+                    },
+                    "links": [
+                        {
+                            "rel": "laureate",
+                            "href": "https://api.nobelprize.org/2/laureate/571",
+                            "action": "GET",
+                            "types": "application/json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "awardYear": "1902",
+            "category": {
+                "en": "Peace",
+                "no": "Fred",
+                "se": "Fred"
+            },
+            "categoryFullName": {
+                "en": "The Nobel Peace Prize",
+                "no": "Nobels fredspris",
+                "se": "Nobels fredspris"
+            },
+            "dateAwarded": "1902-12-10",
+            "prizeAmount": 141847,
+            "prizeAmountAdjusted": 9129789,
+            "links": [
+                {
+                    "rel": "nobelPrize",
+                    "href": "https://api.nobelprize.org/2/nobelPrize/pea/1902",
+                    "action": "GET",
+                    "types": "application/json"
+                }
+            ],
+            "laureates": [
+                {
+                    "id": "464",
+                    "knownName": {
+                        "en": "\u00c9lie Ducommun"
+                    },
+                    "fullName": {
+                        "en": "\u00c9lie Ducommun"
+                    },
+                    "portion": "1/2",
+                    "sortOrder": "1",
+                    "motivation": {
+                        "en": "for his untiring and skilful directorship of the Bern Peace Bureau",
+                        "no": "for sin utrettelige og dyktige ledelse av Det internasjonale fredsbyr\u00e5et i Bern"
+                    },
+                    "links": [
+                        {
+                            "rel": "laureate",
+                            "href": "https://api.nobelprize.org/2/laureate/464",
+                            "action": "GET",
+                            "types": "application/json"
+                        }
+                    ]
+                },
+                {
+                    "id": "465",
+                    "knownName": {
+                        "en": "Albert Gobat"
+                    },
+                    "fullName": {
+                        "en": "Charles Albert Gobat"
+                    },
+                    "portion": "1/2",
+                    "sortOrder": "2",
+                    "motivation": {
+                        "en": "for his eminently practical administration of the Inter-Parliamentary Union",
+                        "no": "for sin fremragende praktiske administrering av Den interparlamentariske union"
+                    },
+                    "links": [
+                        {
+                            "rel": "laureate",
+                            "href": "https://api.nobelprize.org/2/laureate/465",
+                            "action": "GET",
+                            "types": "application/json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "awardYear": "1902",
+            "category": {
+                "en": "Physics",
+                "no": "Fysikk",
+                "se": "Fysik"
+            },
+            "categoryFullName": {
+                "en": "The Nobel Prize in Physics",
+                "no": "Nobelprisen i fysikk",
+                "se": "Nobelpriset i fysik"
+            },
+            "dateAwarded": "1902-11-11",
+            "prizeAmount": 141847,
+            "prizeAmountAdjusted": 9129789,
+            "links": [
+                {
+                    "rel": "nobelPrize",
+                    "href": "https://api.nobelprize.org/2/nobelPrize/phy/1902",
+                    "action": "GET",
+                    "types": "application/json"
+                }
+            ],
+            "laureates": [
+                {
+                    "id": "2",
+                    "knownName": {
+                        "en": "Hendrik A. Lorentz"
+                    },
+                    "fullName": {
+                        "en": "Hendrik Antoon Lorentz"
+                    },
+                    "portion": "1/2",
+                    "sortOrder": "1",
+                    "motivation": {
+                        "en": "in recognition of the extraordinary service they rendered by their researches into the influence of magnetism upon radiation phenomena",
+                        "se": "s\u00e5som ett erk\u00e4nnande av den utomordentliga f\u00f6rtj\u00e4nst de inlagt genom sina unders\u00f6kningar \u00f6ver magnetismens inflytande p\u00e5 str\u00e5lningsfenomenen"
+                    },
+                    "links": [
+                        {
+                            "rel": "laureate",
+                            "href": "https://api.nobelprize.org/2/laureate/2",
+                            "action": "GET",
+                            "types": "application/json"
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "knownName": {
+                        "en": "Pieter Zeeman"
+                    },
+                    "fullName": {
+                        "en": "Pieter Zeeman"
+                    },
+                    "portion": "1/2",
+                    "sortOrder": "2",
+                    "motivation": {
+                        "en": "in recognition of the extraordinary service they rendered by their researches into the influence of magnetism upon radiation phenomena",
+                        "se": "s\u00e5som ett erk\u00e4nnande av den utomordentliga f\u00f6rtj\u00e4nst de inlagt genom sina unders\u00f6kningar \u00f6ver magnetismens inflytande p\u00e5 str\u00e5lningsfenomenen"
+                    },
+                    "links": [
+                        {
+                            "rel": "laureate",
+                            "href": "https://api.nobelprize.org/2/laureate/3",
+                            "action": "GET",
+                            "types": "application/json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "awardYear": "1902",
+            "category": {
+                "en": "Physiology or Medicine",
+                "no": "Fysiologi eller medisin",
+                "se": "Fysiologi eller medicin"
+            },
+            "categoryFullName": {
+                "en": "The Nobel Prize in Physiology or Medicine",
+                "no": "Nobelprisen i fysiologi eller medisin",
+                "se": "Nobelpriset i fysiologi eller medicin"
+            },
+            "dateAwarded": "1902-10-30",
+            "prizeAmount": 141847,
+            "prizeAmountAdjusted": 9129789,
+            "links": [
+                {
+                    "rel": "nobelPrize",
+                    "href": "https://api.nobelprize.org/2/nobelPrize/med/1902",
+                    "action": "GET",
+                    "types": "application/json"
+                }
+            ],
+            "laureates": [
+                {
+                    "id": "294",
+                    "knownName": {
+                        "en": "Ronald Ross"
+                    },
+                    "fullName": {
+                        "en": "Ronald Ross"
+                    },
+                    "portion": "1",
+                    "sortOrder": "1",
+                    "motivation": {
+                        "en": "for his work on malaria, by which he has shown how it enters the organism and thereby has laid the foundation for successful research on this disease and methods of combating it",
+                        "se": "f\u00f6r hans arbete r\u00f6rande malarian, varigenom han uppdagat det s\u00e4tt, varp\u00e5 densamma vinner insteg i organismen, och d\u00e4rmed lagt grunden f\u00f6r betydelsefulla forskningar ang\u00e5ende denna sjukdom och dess bek\u00e4mpande"
+                    },
+                    "links": [
+                        {
+                            "rel": "laureate",
+                            "href": "https://api.nobelprize.org/2/laureate/294",
+                            "action": "GET",
+                            "types": "application/json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "awardYear": "1903",
+            "category": {
+                "en": "Chemistry",
+                "no": "Kjemi",
+                "se": "Kemi"
+            },
+            "categoryFullName": {
+                "en": "The Nobel Prize in Chemistry",
+                "no": "Nobelprisen i kjemi",
+                "se": "Nobelpriset i kemi"
+            },
+            "dateAwarded": "1903-11-12",
+            "prizeAmount": 141358,
+            "prizeAmountAdjusted": 8830717,
+            "links": [
+                {
+                    "rel": "nobelPrize",
+                    "href": "https://api.nobelprize.org/2/nobelPrize/che/1903",
+                    "action": "GET",
+                    "types": "application/json"
+                }
+            ],
+            "laureates": [
+                {
+                    "id": "162",
+                    "knownName": {
+                        "en": "Svante Arrhenius"
+                    },
+                    "fullName": {
+                        "en": "Svante August Arrhenius"
+                    },
+                    "portion": "1",
+                    "sortOrder": "1",
+                    "motivation": {
+                        "en": "in recognition of the extraordinary services he has rendered to the advancement of chemistry by his electrolytic theory of dissociation",
+                        "se": "s\u00e5som ett erk\u00e4nnande f\u00f6r den utomordentliga f\u00f6rtj\u00e4nst han genom sin elektrolytiska dissociations-teori inlagt om kemiens utveckling"
+                    },
+                    "links": [
+                        {
+                            "rel": "laureate",
+                            "href": "https://api.nobelprize.org/2/laureate/162",
+                            "action": "GET",
+                            "types": "application/json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "awardYear": "1903",
+            "category": {
+                "en": "Literature",
+                "no": "Litteratur",
+                "se": "Litteratur"
+            },
+            "categoryFullName": {
+                "en": "The Nobel Prize in Literature",
+                "no": "Nobelprisen i litteratur",
+                "se": "Nobelpriset i litteratur"
+            },
+            "dateAwarded": "1903-11-19",
+            "prizeAmount": 141358,
+            "prizeAmountAdjusted": 8830717,
+            "links": [
+                {
+                    "rel": "nobelPrize",
+                    "href": "https://api.nobelprize.org/2/nobelPrize/lit/1903",
+                    "action": "GET",
+                    "types": "application/json"
+                }
+            ],
+            "laureates": [
+                {
+                    "id": "572",
+                    "knownName": {
+                        "en": "Bj\u00f8rnstjerne Bj\u00f8rnson"
+                    },
+                    "fullName": {
+                        "en": "Bj\u00f8rnstjerne Martinus Bj\u00f8rnson"
+                    },
+                    "portion": "1",
+                    "sortOrder": "1",
+                    "motivation": {
+                        "en": "as a tribute to his noble, magnificent and versatile poetry, which has always been distinguished by both the freshness of its inspiration and the rare purity of its spirit",
+                        "se": "s\u00e5som en g\u00e4rd av erk\u00e4nnande \u00e5t hans \u00e4dla, storartade och m\u00e5ngsidiga skaldeverksamhet, som alltid varit utm\u00e4rkt p\u00e5 en g\u00e5ng av ingivelsens friskhet och av en s\u00e4llsynt sj\u00e4lsrenhet"
+                    },
+                    "links": [
+                        {
+                            "rel": "laureate",
+                            "href": "https://api.nobelprize.org/2/laureate/572",
+                            "action": "GET",
+                            "types": "application/json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "awardYear": "1903",
+            "category": {
+                "en": "Peace",
+                "no": "Fred",
+                "se": "Fred"
+            },
+            "categoryFullName": {
+                "en": "The Nobel Peace Prize",
+                "no": "Nobels fredspris",
+                "se": "Nobels fredspris"
+            },
+            "dateAwarded": "1903-12-10",
+            "prizeAmount": 141358,
+            "prizeAmountAdjusted": 8830717,
+            "links": [
+                {
+                    "rel": "nobelPrize",
+                    "href": "https://api.nobelprize.org/2/nobelPrize/pea/1903",
+                    "action": "GET",
+                    "types": "application/json"
+                }
+            ],
+            "laureates": [
+                {
+                    "id": "466",
+                    "knownName": {
+                        "en": "Randal Cremer"
+                    },
+                    "fullName": {
+                        "en": "William Randal Cremer"
+                    },
+                    "portion": "1",
+                    "sortOrder": "1",
+                    "motivation": {
+                        "en": "for his longstanding and devoted effort in favour of the ideas of peace and arbitration",
+                        "no": "for sin lange og oppofrende innsats for \u00e5 fremme ideen om fred og voldgift"
+                    },
+                    "links": [
+                        {
+                            "rel": "laureate",
+                            "href": "https://api.nobelprize.org/2/laureate/466",
+                            "action": "GET",
+                            "types": "application/json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "awardYear": "1903",
+            "category": {
+                "en": "Physics",
+                "no": "Fysikk",
+                "se": "Fysik"
+            },
+            "categoryFullName": {
+                "en": "The Nobel Prize in Physics",
+                "no": "Nobelprisen i fysikk",
+                "se": "Nobelpriset i fysik"
+            },
+            "dateAwarded": "1903-11-12",
+            "prizeAmount": 141358,
+            "prizeAmountAdjusted": 8830717,
+            "links": [
+                {
+                    "rel": "nobelPrize",
+                    "href": "https://api.nobelprize.org/2/nobelPrize/phy/1903",
+                    "action": "GET",
+                    "types": "application/json"
+                }
+            ],
+            "laureates": [
+                {
+                    "id": "4",
+                    "knownName": {
+                        "en": "Henri Becquerel"
+                    },
+                    "fullName": {
+                        "en": "Antoine Henri Becquerel"
+                    },
+                    "portion": "1/2",
+                    "sortOrder": "1",
+                    "motivation": {
+                        "en": "in recognition of the extraordinary services he has rendered by his discovery of spontaneous radioactivity",
+                        "se": "s\u00e5som ett erk\u00e4nnande av den utomordentliga f\u00f6rtj\u00e4nst han inlagt genom uppt\u00e4ckten av den spontana radioaktiviteten"
+                    },
+                    "links": [
+                        {
+                            "rel": "laureate",
+                            "href": "https://api.nobelprize.org/2/laureate/4",
+                            "action": "GET",
+                            "types": "application/json"
+                        }
+                    ]
+                },
+                {
+                    "id": "5",
+                    "knownName": {
+                        "en": "Pierre Curie"
+                    },
+                    "fullName": {
+                        "en": "Pierre Curie"
+                    },
+                    "portion": "1/4",
+                    "sortOrder": "2",
+                    "motivation": {
+                        "en": "in recognition of the extraordinary services they have rendered by their joint researches on the radiation phenomena discovered by Professor Henri Becquerel",
+                        "se": "s\u00e5som ett erk\u00e4nnande av den utomordentliga f\u00f6rtj\u00e4nst de inlagt genom sina gemensamt utf\u00f6rda arbeten r\u00f6rande de av Professor Henri Becquerel uppt\u00e4ckta str\u00e5lningsfenomenen"
+                    },
+                    "links": [
+                        {
+                            "rel": "laureate",
+                            "href": "https://api.nobelprize.org/2/laureate/5",
+                            "action": "GET",
+                            "types": "application/json"
+                        }
+                    ]
+                },
+                {
+                    "id": "6",
+                    "knownName": {
+                        "en": "Marie Curie"
+                    },
+                    "fullName": {
+                        "en": "Marie Curie, n\u00e9e Sk\u0142odowska"
+                    },
+                    "portion": "1/4",
+                    "sortOrder": "3",
+                    "motivation": {
+                        "en": "in recognition of the extraordinary services they have rendered by their joint researches on the radiation phenomena discovered by Professor Henri Becquerel",
+                        "se": "s\u00e5som ett erk\u00e4nnande av den utomordentliga f\u00f6rtj\u00e4nst de inlagt genom sina gemensamt utf\u00f6rda arbeten r\u00f6rande de av Professor Henri Becquerel uppt\u00e4ckta str\u00e5lningsfenomenen"
+                    },
+                    "links": [
+                        {
+                            "rel": "laureate",
+                            "href": "https://api.nobelprize.org/2/laureate/6",
+                            "action": "GET",
+                            "types": "application/json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "awardYear": "1903",
+            "category": {
+                "en": "Physiology or Medicine",
+                "no": "Fysiologi eller medisin",
+                "se": "Fysiologi eller medicin"
+            },
+            "categoryFullName": {
+                "en": "The Nobel Prize in Physiology or Medicine",
+                "no": "Nobelprisen i fysiologi eller medisin",
+                "se": "Nobelpriset i fysiologi eller medicin"
+            },
+            "dateAwarded": "1903-10-15",
+            "prizeAmount": 141358,
+            "prizeAmountAdjusted": 8830717,
+            "links": [
+                {
+                    "rel": "nobelPrize",
+                    "href": "https://api.nobelprize.org/2/nobelPrize/med/1903",
+                    "action": "GET",
+                    "types": "application/json"
+                }
+            ],
+            "laureates": [
+                {
+                    "id": "295",
+                    "knownName": {
+                        "en": "Niels Ryberg Finsen"
+                    },
+                    "fullName": {
+                        "en": "Niels Ryberg Finsen"
+                    },
+                    "portion": "1",
+                    "sortOrder": "1",
+                    "motivation": {
+                        "en": "in recognition of his contribution to the treatment of diseases, especially lupus vulgaris, with concentrated light radiation, whereby he has opened a new avenue for medical science",
+                        "se": "s\u00e5som ett erk\u00e4nnande \u00e5t hans arbete f\u00f6r behandling av sjukdomar och s\u00e4rskilt lupus vulgaris med koncentrerade ljusstr\u00e5lar, varigenom han \u00f6ppnat en ny v\u00e4g f\u00f6r l\u00e4kekonsten"
+                    },
+                    "links": [
+                        {
+                            "rel": "laureate",
+                            "href": "https://api.nobelprize.org/2/laureate/295",
+                            "action": "GET",
+                            "types": "application/json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "awardYear": "1904",
+            "category": {
+                "en": "Chemistry",
+                "no": "Kjemi",
+                "se": "Kemi"
+            },
+            "categoryFullName": {
+                "en": "The Nobel Prize in Chemistry",
+                "no": "Nobelprisen i kjemi",
+                "se": "Nobelpriset i kemi"
+            },
+            "dateAwarded": "1904-11-08",
+            "prizeAmount": 140859,
+            "prizeAmountAdjusted": 8799545,
+            "links": [
+                {
+                    "rel": "nobelPrize",
+                    "href": "https://api.nobelprize.org/2/nobelPrize/che/1904",
+                    "action": "GET",
+                    "types": "application/json"
+                }
+            ],
+            "laureates": [
+                {
+                    "id": "163",
+                    "knownName": {
+                        "en": "Sir William Ramsay"
+                    },
+                    "fullName": {
+                        "en": "Sir William Ramsay"
+                    },
+                    "portion": "1",
+                    "sortOrder": "1",
+                    "motivation": {
+                        "en": "in recognition of his services in the discovery of the inert gaseous elements in air, and his determination of their place in the periodic system",
+                        "se": "s\u00e5som ett erk\u00e4nnande av den f\u00f6rtj\u00e4nst han inlagt genom uppt\u00e4ckten av de indifferenta gasformiga grund\u00e4mnenena i luften och best\u00e4mmandet av deras plats i det periodiska systemet"
+                    },
+                    "links": [
+                        {
+                            "rel": "laureate",
+                            "href": "https://api.nobelprize.org/2/laureate/163",
+                            "action": "GET",
+                            "types": "application/json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "awardYear": "1904",
+            "category": {
+                "en": "Literature",
+                "no": "Litteratur",
+                "se": "Litteratur"
+            },
+            "categoryFullName": {
+                "en": "The Nobel Prize in Literature",
+                "no": "Nobelprisen i litteratur",
+                "se": "Nobelpriset i litteratur"
+            },
+            "dateAwarded": "1904-11-17",
+            "prizeAmount": 140859,
+            "prizeAmountAdjusted": 8799545,
+            "links": [
+                {
+                    "rel": "nobelPrize",
+                    "href": "https://api.nobelprize.org/2/nobelPrize/lit/1904",
+                    "action": "GET",
+                    "types": "application/json"
+                }
+            ],
+            "laureates": [
+                {
+                    "id": "573",
+                    "knownName": {
+                        "en": "Fr\u00e9d\u00e9ric Mistral"
+                    },
+                    "fullName": {
+                        "en": "Fr\u00e9d\u00e9ric Mistral"
+                    },
+                    "portion": "1/2",
+                    "sortOrder": "1",
+                    "motivation": {
+                        "en": "in recognition of the fresh originality and true inspiration of his poetic production, which faithfully reflects the natural scenery and native spirit of his people, and, in addition, his significant work as a Proven&ccedil;al philologist",
+                        "se": "med avseende f\u00e4st \u00e5 det ursprungsfriska, snillrika och sant konstn\u00e4rliga i hans diktning, som troget avspeglar hans hembygds natur och folkliv, samt \u00e5 hans betydelsefulla verksamhet som proven\u00e7alsk filolog"
+                    },
+                    "links": [
+                        {
+                            "rel": "laureate",
+                            "href": "https://api.nobelprize.org/2/laureate/573",
+                            "action": "GET",
+                            "types": "application/json"
+                        }
+                    ]
+                },
+                {
+                    "id": "574",
+                    "knownName": {
+                        "en": "Jos\u00e9 Echegaray"
+                    },
+                    "fullName": {
+                        "en": "Jos\u00e9 Echegaray y Eizaguirre"
+                    },
+                    "portion": "1/2",
+                    "sortOrder": "2",
+                    "motivation": {
+                        "en": "in recognition of the numerous and brilliant compositions which, in an individual and original manner, have revived the great traditions of the Spanish drama",
+                        "se": "med avseende f\u00e4st \u00e5 hans omfattande och snillrika f\u00f6rfattarskap, som p\u00e5 sj\u00e4lvst\u00e4ndigt och orginellt s\u00e4tt \u00e5terupplivat det spanska sk\u00e5despelets stora traditioner"
+                    },
+                    "links": [
+                        {
+                            "rel": "laureate",
+                            "href": "https://api.nobelprize.org/2/laureate/574",
+                            "action": "GET",
+                            "types": "application/json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "awardYear": "1904",
+            "category": {
+                "en": "Peace",
+                "no": "Fred",
+                "se": "Fred"
+            },
+            "categoryFullName": {
+                "en": "The Nobel Peace Prize",
+                "no": "Nobels fredspris",
+                "se": "Nobels fredspris"
+            },
+            "dateAwarded": "1904-12-10",
+            "prizeAmount": 140859,
+            "prizeAmountAdjusted": 8799545,
+            "links": [
+                {
+                    "rel": "nobelPrize",
+                    "href": "https://api.nobelprize.org/2/nobelPrize/pea/1904",
+                    "action": "GET",
+                    "types": "application/json"
+                }
+            ],
+            "laureates": [
+                {
+                    "id": "467",
+                    "orgName": {
+                        "en": "Institute of International Law",
+                        "no": "Folkerettsinstituttet"
+                    },
+                    "nativeName": "Institut de droit international",
+                    "portion": "1",
+                    "sortOrder": "1",
+                    "motivation": {
+                        "en": "for its striving in public law to develop peaceful ties between nations and to make the laws of war more humane",
+                        "no": "for arbeidet med \u00e5 skape fredelige forbindelser mellom nasjoner og gj\u00f8re krigens lover mer humane gjennom folkeretten"
+                    },
+                    "links": [
+                        {
+                            "rel": "laureate",
+                            "href": "https://api.nobelprize.org/2/laureate/467",
+                            "action": "GET",
+                            "types": "application/json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "awardYear": "1904",
+            "category": {
+                "en": "Physics",
+                "no": "Fysikk",
+                "se": "Fysik"
+            },
+            "categoryFullName": {
+                "en": "The Nobel Prize in Physics",
+                "no": "Nobelprisen i fysikk",
+                "se": "Nobelpriset i fysik"
+            },
+            "dateAwarded": "1904-11-08",
+            "prizeAmount": 140859,
+            "prizeAmountAdjusted": 8799545,
+            "links": [
+                {
+                    "rel": "nobelPrize",
+                    "href": "https://api.nobelprize.org/2/nobelPrize/phy/1904",
+                    "action": "GET",
+                    "types": "application/json"
+                }
+            ],
+            "laureates": [
+                {
+                    "id": "8",
+                    "knownName": {
+                        "en": "Lord Rayleigh"
+                    },
+                    "fullName": {
+                        "en": "Lord Rayleigh (John William Strutt)"
+                    },
+                    "portion": "1",
+                    "sortOrder": "1",
+                    "motivation": {
+                        "en": "for his investigations of the densities of the most important gases and for his discovery of argon in connection with these studies",
+                        "se": "f\u00f6r hans unders\u00f6kningar r\u00f6rande de viktigaste gasernas t\u00e4thet samt hans i sammanhang med dessa unders\u00f6kningar gjorda uppt\u00e4ckt av argon"
+                    },
+                    "links": [
+                        {
+                            "rel": "laureate",
+                            "href": "https://api.nobelprize.org/2/laureate/8",
+                            "action": "GET",
+                            "types": "application/json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "awardYear": "1904",
+            "category": {
+                "en": "Physiology or Medicine",
+                "no": "Fysiologi eller medisin",
+                "se": "Fysiologi eller medicin"
+            },
+            "categoryFullName": {
+                "en": "The Nobel Prize in Physiology or Medicine",
+                "no": "Nobelprisen i fysiologi eller medisin",
+                "se": "Nobelpriset i fysiologi eller medicin"
+            },
+            "dateAwarded": "1904-10-20",
+            "prizeAmount": 140859,
+            "prizeAmountAdjusted": 8799545,
+            "links": [
+                {
+                    "rel": "nobelPrize",
+                    "href": "https://api.nobelprize.org/2/nobelPrize/med/1904",
+                    "action": "GET",
+                    "types": "application/json"
+                }
+            ],
+            "laureates": [
+                {
+                    "id": "296",
+                    "knownName": {
+                        "en": "Ivan Pavlov"
+                    },
+                    "fullName": {
+                        "en": "Ivan Petrovich Pavlov"
+                    },
+                    "portion": "1",
+                    "sortOrder": "1",
+                    "motivation": {
+                        "en": "in recognition of his work on the physiology of digestion, through which knowledge on vital aspects of the subject has been transformed and enlarged",
+                        "se": "s\u00e5som ett erk\u00e4nnande av hans arbete r\u00f6rande digestionens fysiologi, varigenom han i v\u00e4sentliga delar omdanat och vidgat kunskapen p\u00e5 detta omr\u00e5de"
+                    },
+                    "links": [
+                        {
+                            "rel": "laureate",
+                            "href": "https://api.nobelprize.org/2/laureate/296",
+                            "action": "GET",
+                            "types": "application/json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "awardYear": "1905",
+            "category": {
+                "en": "Chemistry",
+                "no": "Kjemi",
+                "se": "Kemi"
+            },
+            "categoryFullName": {
+                "en": "The Nobel Prize in Chemistry",
+                "no": "Nobelprisen i kjemi",
+                "se": "Nobelpriset i kemi"
+            },
+            "prizeAmount": 138089,
+            "prizeAmountAdjusted": 8626501,
+            "links": [
+                {
+                    "rel": "nobelPrize",
+                    "href": "https://api.nobelprize.org/2/nobelPrize/che/1905",
+                    "action": "GET",
+                    "types": "application/json"
+                }
+            ],
+            "laureates": [
+                {
+                    "id": "164",
+                    "knownName": {
+                        "en": "Adolf von Baeyer"
+                    },
+                    "fullName": {
+                        "en": "Johann Friedrich Wilhelm Adolf von Baeyer"
+                    },
+                    "portion": "1",
+                    "sortOrder": "1",
+                    "motivation": {
+                        "en": "in recognition of his services in the advancement of organic chemistry and the chemical industry, through his work on organic dyes and hydroaromatic compounds",
+                        "se": "s\u00e5som ett erk\u00e4nnande av den f\u00f6rtj\u00e4nst han inlagt om den organiska kemiens och den kemiska industriens utveckling genom sina arbeten r\u00f6rande organiska f\u00e4rg\u00e4mnen och hydroaromatiska f\u00f6reningar"
+                    },
+                    "links": [
+                        {
+                            "rel": "laureate",
+                            "href": "https://api.nobelprize.org/2/laureate/164",
+                            "action": "GET",
+                            "types": "application/json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "awardYear": "1905",
+            "category": {
+                "en": "Literature",
+                "no": "Litteratur",
+                "se": "Litteratur"
+            },
+            "categoryFullName": {
+                "en": "The Nobel Prize in Literature",
+                "no": "Nobelprisen i litteratur",
+                "se": "Nobelpriset i litteratur"
+            },
+            "prizeAmount": 138089,
+            "prizeAmountAdjusted": 8626501,
+            "links": [
+                {
+                    "rel": "nobelPrize",
+                    "href": "https://api.nobelprize.org/2/nobelPrize/lit/1905",
+                    "action": "GET",
+                    "types": "application/json"
+                }
+            ],
+            "laureates": [
+                {
+                    "id": "575",
+                    "knownName": {
+                        "en": "Henryk Sienkiewicz"
+                    },
+                    "fullName": {
+                        "en": "Henryk Sienkiewicz"
+                    },
+                    "portion": "1",
+                    "sortOrder": "1",
+                    "motivation": {
+                        "en": "because of his outstanding merits as an epic writer",
+                        "se": "p\u00e5 grund av hans storartade f\u00f6rtj\u00e4nster som episk f\u00f6rfattare"
+                    },
+                    "links": [
+                        {
+                            "rel": "laureate",
+                            "href": "https://api.nobelprize.org/2/laureate/575",
+                            "action": "GET",
+                            "types": "application/json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "awardYear": "1905",
+            "category": {
+                "en": "Peace",
+                "no": "Fred",
+                "se": "Fred"
+            },
+            "categoryFullName": {
+                "en": "The Nobel Peace Prize",
+                "no": "Nobels fredspris",
+                "se": "Nobels fredspris"
+            },
+            "dateAwarded": "1905-12-10",
+            "prizeAmount": 138089,
+            "prizeAmountAdjusted": 8626501,
+            "links": [
+                {
+                    "rel": "nobelPrize",
+                    "href": "https://api.nobelprize.org/2/nobelPrize/pea/1905",
+                    "action": "GET",
+                    "types": "application/json"
+                }
+            ],
+            "laureates": [
+                {
+                    "id": "468",
+                    "knownName": {
+                        "en": "Bertha von Suttner"
+                    },
+                    "fullName": {
+                        "en": "Baroness Bertha Sophie Felicita von Suttner, n\u00e9e Countess Kinsky von Chinic und Tettau"
+                    },
+                    "portion": "1",
+                    "sortOrder": "1",
+                    "motivation": {
+                        "en": "for her audacity to oppose the horrors of war",
+                        "no": "for sin modige kamp mot krigens grusomheter"
+                    },
+                    "links": [
+                        {
+                            "rel": "laureate",
+                            "href": "https://api.nobelprize.org/2/laureate/468",
+                            "action": "GET",
+                            "types": "application/json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "awardYear": "1905",
+            "category": {
+                "en": "Physics",
+                "no": "Fysikk",
+                "se": "Fysik"
+            },
+            "categoryFullName": {
+                "en": "The Nobel Prize in Physics",
+                "no": "Nobelprisen i fysikk",
+                "se": "Nobelpriset i fysik"
+            },
+            "prizeAmount": 138089,
+            "prizeAmountAdjusted": 8626501,
+            "links": [
+                {
+                    "rel": "nobelPrize",
+                    "href": "https://api.nobelprize.org/2/nobelPrize/phy/1905",
+                    "action": "GET",
+                    "types": "application/json"
+                }
+            ],
+            "laureates": [
+                {
+                    "id": "9",
+                    "knownName": {
+                        "en": "Philipp Lenard"
+                    },
+                    "fullName": {
+                        "en": "Philipp Eduard Anton von Lenard"
+                    },
+                    "portion": "1",
+                    "sortOrder": "1",
+                    "motivation": {
+                        "en": "for his work on cathode rays",
+                        "se": "f\u00f6r hans arbeten \u00f6ver katodstr\u00e5larna"
+                    },
+                    "links": [
+                        {
+                            "rel": "laureate",
+                            "href": "https://api.nobelprize.org/2/laureate/9",
+                            "action": "GET",
+                            "types": "application/json"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "awardYear": "1905",
+            "category": {
+                "en": "Physiology or Medicine",
+                "no": "Fysiologi eller medisin",
+                "se": "Fysiologi eller medicin"
+            },
+            "categoryFullName": {
+                "en": "The Nobel Prize in Physiology or Medicine",
+                "no": "Nobelprisen i fysiologi eller medisin",
+                "se": "Nobelpriset i fysiologi eller medicin"
+            },
+            "prizeAmount": 138089,
+            "prizeAmountAdjusted": 8626501,
+            "links": [
+                {
+                    "rel": "nobelPrize",
+                    "href": "https://api.nobelprize.org/2/nobelPrize/med/1905",
+                    "action": "GET",
+                    "types": "application/json"
+                }
+            ],
+            "laureates": [
+                {
+                    "id": "297",
+                    "knownName": {
+                        "en": "Robert Koch"
+                    },
+                    "fullName": {
+                        "en": "Robert Koch"
+                    },
+                    "portion": "1",
+                    "sortOrder": "1",
+                    "motivation": {
+                        "en": "for his investigations and discoveries in relation to tuberculosis",
+                        "se": "f\u00f6r hans unders\u00f6kningar och uppt\u00e4ckter r\u00f6rande tuberkulos"
+                    },
+                    "links": [
+                        {
+                            "rel": "laureate",
+                            "href": "https://api.nobelprize.org/2/laureate/297",
+                            "action": "GET",
+                            "types": "application/json"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "offset": 0,
+        "limit": 25,
+        "count": 670,
+        "terms": "https://www.nobelprize.org/about/terms-of-use-for-api-nobelprize-org-and-data-nobelprize-org/",
+        "license": "https://www.nobelprize.org/about/terms-of-use-for-api-nobelprize-org-and-data-nobelprize-org/#licence",
+        "disclaimer": "https://www.nobelprize.org/about/terms-of-use-for-api-nobelprize-org-and-data-nobelprize-org/#disclaimer"
+    },
+    "links": {
+        "first": "https://masterdataapi.nobelprize.org/2.1/nobelPrizes?offset=0&limit=25",
+        "self": "https://masterdataapi.nobelprize.org/2.1/nobelPrizes?offset=0&limit=25",
+        "next": "https://masterdataapi.nobelprize.org/2.1/nobelPrizes?offset=25&limit=25",
+        "last": "https://masterdataapi.nobelprize.org/2.1/nobelPrizes?offset=650&limit=25"
+    }
+}
