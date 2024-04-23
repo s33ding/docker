@@ -4,4 +4,4 @@
 source .env
 
 # Run Docker container with provided arguments
-docker run -it -p "$CONTAINER_PORT" -v "$(pwd)/exerc:/tf" --name "$CONTAINER_NAME" "$IMG_NAME"
+docker run -it -p "$CONTAINER_PORT" -v "$(pwd)/exerc:/workspace" --name "$CONTAINER_NAME" "$IMG_NAME"
