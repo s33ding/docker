@@ -1,0 +1,14 @@
+# Use the official TensorFlow Docker image as base
+FROM tensorflow/tensorflow:latest-jupyter
+
+# Copy the requirements file into the container
+COPY requirements.txt /tmp/requirements.txt
+
+# Install Python dependencies
+RUN pip install --no-cache-dir -r /tmp/requirements.txt
+
+# Define the working directory
+WORKDIR /workspace
+
+# Set the default command to start a bash shell
+CMD ["/bin/bash"]
