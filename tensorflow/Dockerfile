@@ -15,5 +15,3 @@ RUN pip install --no-cache-dir -r /tmp/requirements.txt
 # Define the working directory
 WORKDIR /workspace
 
-# Set the default command to start a bash shell
-CMD ["/bin/bash"]
