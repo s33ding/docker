@@ -9,6 +9,7 @@ RUN apt-get update && \
 # Copy the requirements file into the container
 COPY requirements.txt /tmp/requirements.txt
 
+RUN pip install --upgrade pip
 # Install Python dependencies
 RUN pip install --no-cache-dir -r /tmp/requirements.txt
 
