@@ -1,2 +1,0 @@
-import tensorflow as tf
-gray = tf.random.uniform([2,2], maxvall=255, dtype="int32")
