@@ -1,0 +1,30 @@
+# deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ubuntu-ssh
+  labels:
+    app: ubuntu-ssh
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ubuntu-ssh
+  template:
+    metadata:
+      labels:
+        app: ubuntu-ssh
+    spec:
+      containers:
+      - name: ubuntu-ssh
+        image: 408411726795.dkr.ecr.us-east-1.amazonaws.com/ubuntu-ssh:latest
+        ports:
+        - containerPort: 22
+        volumeMounts:
+        - name: ssh-key
+          mountPath: /root/.ssh/authorized_keys
+          subPath: authorized_keys
+      volumes:
+      - name: ssh-key
+        secret:
+          secretName: ssh-key-secret

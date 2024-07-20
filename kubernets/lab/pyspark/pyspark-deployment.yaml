@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pyspark-notebook
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pyspark-notebook
+  template:
+    metadata:
+      labels:
+        app: pyspark-notebook
+    spec:
+      containers:
+      - name: pyspark-notebook
+        image: jupyter/pyspark-notebook:latest
+        ports:
+        - containerPort: 8888
+        env:
+        - name: JUPYTER_ENABLE_LAB
+          value: "yes"
+        - name: JUPYTER_TOKEN
+          value: "your_secure_token"
+

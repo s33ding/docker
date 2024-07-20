@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ubuntu-ssh
+  labels:
+    app: ubuntu-ssh
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ubuntu-ssh
+  template:
+    metadata:
+      labels:
+        app: ubuntu-ssh
+    spec:
+      nodeSelector:
+        nodeclass: high-memory  # Add your desired node label here
+      containers:
+      - name: ubuntu-ssh
+        image: 408411726795.dkr.ecr.us-east-1.amazonaws.com/ubuntu-ssh
+        ports:
+        - containerPort: 22
+        volumeMounts:
+        - name: ssh-key
+          mountPath: /root/.ssh/id_rsa
+          subPath: s33ding-default.pem
+      volumes:
+      - name: ssh-key
+        secret:
+          secretName: ssh-key-secret
+      initContainers:
+      - name: setup-ssh
+        image: ubuntu:latest
+        command: ["sh", "-c", "apt-get update && apt-get install -y openssh-server && mkdir -p /root/.ssh && cp /mnt/secret/s33ding-default.pem /root/.ssh/id_rsa && chmod 600 /root/.ssh/id_rsa && ssh-keygen -y -f /root/.ssh/id_rsa > /root/.ssh/authorized_keys && /usr/sbin/sshd -D"]
+        volumeMounts:
+        - name: ssh-key
+          mountPath: /mnt/secret

@@ -1,0 +1,1 @@
+kubectl logs sa-pod

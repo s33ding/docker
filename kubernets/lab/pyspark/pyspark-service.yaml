@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: pyspark-service
+  namespace: default
+spec:
+  type: LoadBalancer
+  selector:
+    app: pyspark-notebook
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8888
+
