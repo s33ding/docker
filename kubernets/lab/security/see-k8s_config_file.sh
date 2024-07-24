@@ -1,2 +1,0 @@
-cat  ~/.kube/config
-
