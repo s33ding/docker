@@ -4,7 +4,7 @@ services:
   postgres:
     image: postgres:14.5-bullseye
     environment:
-      POSTGRES_PASSWORD: ${DATAI_POSTGRES_PASSWORD}
+      POSTGRES_PASSWORD: postgres
     ports:
       - "5432:5432"
     volumes:
@@ -16,8 +16,8 @@ services:
   pgadmin:
     image: dpage/pgadmin4:6.13
     environment:
-      PGADMIN_DEFAULT_EMAIL: "dataiconsultoria@gmail.com"
-      PGADMIN_DEFAULT_PASSWORD: ${DATAI_POSTGRES_PASSWORD}
+      PGADMIN_DEFAULT_EMAIL: "robertomdiniz@protonmail.com"
+      PGADMIN_DEFAULT_PASSWORD: admin
     ports:
       - "5050:80"
     depends_on:
