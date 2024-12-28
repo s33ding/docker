@@ -1,3 +1,1 @@
-NAME="airflow"
-docker start $NAME 
-docker exec -it $NAME bash
+docker exec -it --user airflow airflow-airflow-scheduler-1 bash
