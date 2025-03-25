@@ -1,0 +1,6 @@
+boto3
+pandas
+pyarrow
+findspark
+mysql.connector
+py4j
